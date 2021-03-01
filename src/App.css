@@ -1,9 +1,9 @@
-form{
+form {
   display: flex;
   flex-direction: row;
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -15,24 +15,24 @@ form{
   border: 1px solid;
 } */
 
-header{
+header {
   text-align: center;
 }
 
-#input{
+#input {
   padding: 5px;
   border: 1px solid;
 }
-#filter-todos{
+#filter-todos {
   padding: 5px;
 }
 
-.todo{
+.todo {
   display: flex;
   flex-direction: row;
 }
 
-.todo-item{
+.todo-item {
   min-width: 150px;
   border: 1px solid;
   background-color: lightgoldenrodyellow;
@@ -41,8 +41,33 @@ header{
   padding: 5px;
 }
 
-.todo-item.completed{
-  background-color: rgb(226, 226, 226);
-  color:rgba(0, 0, 0, 0.9);
+.todo-item.completed {
+  background-color: lightblue;
+  color: rgba(0, 0, 0, 0.9);
   text-decoration: line-through;
+}
+
+.submit {
+  background-color: navy;
+  color: white;
+  border: none;
+  font-size: 1.1rem;
+  border-radius: 2px;
+  border: 1px solid black;
+}
+
+form input,
+select {
+  border-radius: 2px;
+}
+.complete-btn {
+  background-color: thistle;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.trash-btn {
+  background-color: rgb(224, 80, 80);
+  border: 1px solid black;
+  border-radius: 2px;
 }

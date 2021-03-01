@@ -1,8 +1,8 @@
-body{
-  margin:0;
-  background-color: lightyellow;
+body {
+  margin: 0;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
 }
 
-*{
+* {
   box-sizing: border-box;
 }
